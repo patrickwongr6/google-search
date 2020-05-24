@@ -42,6 +42,8 @@ header {
     padding:0;
     margin: 0;
 }
+
+
 #menu-icon {
     max-width: 25px;
     width: 100px;
@@ -59,7 +61,7 @@ header {
     background: linear-gradient(top,#4387fd,#4683ea);
     padding: 5px 10px;
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 #header-main {
@@ -108,4 +110,84 @@ header {
 
 #results-section {
     padding-left: 160px;
+}
+#search-result-number {
+    font-size: 13px;
+    color:#70757a;
+}
+#results-container {
+    margin-top: 20px;
+    max-width: 570px;
+}
+.result-item {
+    margin: 0 0 30px;
+}
+.result-item .permalink {
+    font-size 13px;
+    color: #000;
+}
+.result-item .permalink .current-url {
+    color: #70757a;
+}
+
+.result-item .result-title {
+    font-size: 20px;
+}
+.result-item .result-description {
+    color: #70757a;
+    font-size 13px;
+    line-height: 1.5;
+}
+
+.result-item p,
+.result-item h2 {
+    margin:5px 0;
+}
+
+#footer {
+    background-color: #f2f2f2;
+    font-size: 15px;
+    border-top: 1px solid #e4e4e4;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer #upper-footer {
+ padding: 10px 0 10px 160px;
+ border-bottom: 1px solid #e4e4e4;
+ display: flex;
+ flex-direction: row;
+}
+#footer #upper-footer p {
+    margin-right: 20px
+}
+
+#Location {
+    font-weight: bold;
+}
+
+#footer #lower-footer {
+    padding: 10px 0 0 160px;
+}
+#footer #lower-footer #footer-nav ul {
+    padding-left: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    }
+ #footer #lower-footer #footer-nav ul li{
+     margin-right: 10px;
+ }
+ #footer #lower-footer #footer-nav ul li:last-child {
+     margin-right:0;
+ }
+#footer #lower-footer #footer-nav ul li a {
+    color: #70757a;
+    text-decoration: none;
+}
+#footer #lower-footer #footer-nav ul li a:hover {
+    color: #000;
 }
