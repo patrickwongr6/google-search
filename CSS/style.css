@@ -1,3 +1,111 @@
-p {
-    font-size: 30px;
+body{
+    font-family: arial, sans-serif;
+}
+
+header {
+    padding: 20px 20px 0;
+}
+#header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-search {
+    display: flex;
+    align-items: center;
+}
+
+#logo-container {
+    margin-right: 40px;
+}
+#logo {
+    width: 92px;
+    height: 30px;
+}
+#search {
+    border-radius: 20px;
+    border:1px solid #cccccc;
+    width:100%;
+    width: 584px;
+    height: 40px;
+    padding: 20px;
+}
+#search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color:rgba(223,225,229,0);
+}
+
+#menu-header ul{
+    display: flex;
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+#menu-icon {
+    max-width: 25px;
+    width: 100px;
+    height; auto;
+    text-decoration: none;
+    padding-right: 10px;
+}
+#sign-in {
+    border:1px solid #4285f4;
+    border-radius: 2px;
+    font-size: 13px;
+    background: #4285f4;
+    outline: none;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#header-main {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#header-main #nav-bar {
+    max-width: 570px;
+    margin-left: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#header-main #nav-bar #main-menu{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#header-main #nav-bar #main-right{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#header-main #nav-bar #main-menu li,
+#header-main #nav-bar #main-right li {
+    margin-right: 20px;
+}
+
+#header-main #nav-bar #main-menu li:last-child,
+#header-main #nav-bar #main-right li:last-child {
+    margin-right: 0px;
+}
+
+#header-main #nav-bar #main-menu li a,
+#header-main #nav-bar #main-right li a {
+   text-decoration: none;
+   color: #70757a;
+   font-size: 13px;
+}
+
+#results-section {
+    padding-left: 160px;
 }
